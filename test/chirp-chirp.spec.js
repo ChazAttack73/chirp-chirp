@@ -2,7 +2,7 @@ var chai = require('chai');
 var expect = chai.expect;
 chai.should();
 
-var chirpChirp = require( '../chirp-chirp.js' );
+var chirpChirp = require( './../chirp-chirp.js' );
 
 describe( 'chirpChirp', function () {
   it( 'should exist', function () {
